@@ -5,12 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './views/shared/Header';
 import Banner from './views/Banner';
+import Jobs from './views/Jobs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
     <Banner />
+    <Jobs />
   </React.StrictMode>
 );
 

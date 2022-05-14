@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.job-card {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  cursor: pointer;
+}
+.job-card:hover {
+  background: #f8f8fa;
+}
+.job-card .date-col {
+  display: flex;
+  align-items: center;
+}
