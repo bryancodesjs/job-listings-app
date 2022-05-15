@@ -34,7 +34,7 @@ class Jobs extends React.Component {
                                     <Card className='border job-card mb-3' onClick={goToJob}>
                                         <Card.Body>
                                             <Row>
-                                                <Col md={9}>
+                                                <Col md={9} className="info-col">
                                                     <Card.Text className='mb-2'>{job.company}</Card.Text>    
                                                     <Card.Title>{job.position}</Card.Title>
                                                     <Card.Text>{job.type} / {job.location}</Card.Text>

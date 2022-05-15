@@ -11,6 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.card {
+  text-align: start;
+}
 .job-card {
   padding-right: 2rem;
   padding-left: 2rem;
@@ -22,4 +25,9 @@ code {
 .job-card .date-col {
   display: flex;
   align-items: center;
+}
+.job-card .info-col {
+  display: flex;
+    flex-direction: column;
+    align-items: start;
 }

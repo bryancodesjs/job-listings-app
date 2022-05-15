@@ -6,13 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import Header from './views/shared/Header';
 import Banner from './views/Banner';
 import Jobs from './views/Jobs';
+import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
-    <Banner />
-    <Jobs />
+    <BrowserRouter>
+      <App/>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
